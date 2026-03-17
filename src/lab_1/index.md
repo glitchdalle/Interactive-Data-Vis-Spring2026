@@ -72,3 +72,20 @@ Plot.plot({
 })
 ```
 Pollinator visits increase as temperature rises, suggesting warmer conditions are more favorable for activity. However, there is still a baseline level of visits even at lower temperatures.
+
+```js
+Plot.plot({
+  title: "Average Nectar Production by Flower Species",
+  x: {label: "Flower Species"},
+  y: {label: "Average Nectar Production (μL)"},
+  marks: [
+    Plot.barY(data, {
+      x: "flower_species",
+      y: "nectar_production",
+      fill: "flower_species"
+    }),
+    Plot.ruleY([0])
+  ]
+})
+```
+Nectar production wise, Sunflower takes the lead. Coneflower and lavender compete for second, with the former taking the lead by about 10 units. 
