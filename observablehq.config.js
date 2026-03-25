@@ -40,8 +40,8 @@ export default {
       name: "Lab 2: Subway Staffing",
       open: false,
       pages: [
-        // { name: "Instructions", path: "/lab_2/readme" },
-        // { name: "Dashboard", path: "/lab_2/index" },
+        { name: "Instructions", path: "/lab_2/readme" },
+        { name: "Dashboard", path: "/lab_2/index" },
       ],
     },
     {
