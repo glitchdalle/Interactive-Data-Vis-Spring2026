@@ -87,8 +87,8 @@ export default {
       name: "Lab 4: Clearwater Crisis",
       open: false,
       pages: [
-        // { name: "Instructions", path: "/lab_4/readme" },
-        // { name: "Dashboard", path: "/lab_4/index" },
+        { name: "Instructions", path: "/lab_4/readme" },
+        { name: "Dashboard", path: "/lab_4/index" },
       ],
     },
   ],
